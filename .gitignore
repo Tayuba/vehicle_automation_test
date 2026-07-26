@@ -1,0 +1,77 @@
+# Build output
+build/
+build_*/
+out/
+dist/
+bin/
+obj/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Microsoft Visual Studio
+.vs/
+*.user
+*.suo
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Qt Creator
+*.pro.user
+CMakeLists.txt.user
+
+# JetBrains
+.idea/
+
+# Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Test output
+test_results/
+coverage/
+*.gcda
+*.gcno
+
+# Generated runtime data
+runtime_data/
+generated_reports/
+can_traces/
+
+# Customer and confidential data
+customer_packages/
+customer_data/
+*.vtpkg
+
+# Secrets and local configuration
+.env
+.env.*
+secrets/
+local_config/
